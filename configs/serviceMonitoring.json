@@ -1,0 +1,55 @@
+{
+    "service1":
+      {
+      "service_name":"httpd",
+      "server_ip":"192.168..0.2",
+      "service_grp":["gp1","nginx"],
+      "s_key":"privkey",
+      "s_pass_id":"pass",
+      "scheduling":{
+        "required":true,
+        "interval": 100
+      },
+      "service_command":"sudo service httpd status"
+      }
+    ,
+    "service2":
+      {
+      "service_name":"nginx",
+      "service_command": "",
+      "serviceerver_ip":"192.168.0.1",
+      "service_grp":[],
+      "s_key":"privkey",
+      "s_pass_id":"pass"
+      }
+    ,
+    "service3":
+      {
+      "service_name":"tomcat",
+      "server_ip":"192.168.0.2",
+      "service_grp":[],
+      "s_key":"privkey",
+      "s_pass_id":"pass"
+      },
+      "service4":
+      {
+      "service_name":"httpd",
+      "server_ip":"192.168..0.2",
+      "service_grp":["gp1"],
+      "s_key":"privkey",
+      "s_pass_id":"pass"
+      },
+      "service5":
+      {
+      "service_name":"nginx",
+      "server_ip":"192.168..0.2",
+      "service_grp":["local"],
+      "s_key":"privkey",
+      "s_pass_id":"pass",
+      "autentication": {
+        "username": "manjit",
+        "password":"test"
+      }
+      }
+
+  }

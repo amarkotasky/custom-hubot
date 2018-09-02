@@ -1,0 +1,7 @@
+{
+  "key1": {
+    "urls":"https://www.fb.com",
+    "url_groups": ["production,preprod"],
+    "application_name": "nexus"
+  }
+}
